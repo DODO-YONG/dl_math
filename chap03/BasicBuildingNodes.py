@@ -25,3 +25,4 @@ class minus_node:
 
     def backward(self, dz):
         return dz, -1*dz
+
